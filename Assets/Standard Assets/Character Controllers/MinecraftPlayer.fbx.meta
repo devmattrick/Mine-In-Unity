@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 4783aadae216f2140afd1967eda81d71
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: body
+    100002: Camera
+    100004: larm_L
+    100006: larm_R
+    100008: lleg_L
+    100010: lleg_R
+    100012: //RootNode
+    100014: Player_0
+    100016: PlayerArmature
+    100018: root_0
+    100020: Sun
+    100022: top
+    100024: uarm_L
+    100026: uarm_R
+    100028: uleg_L
+    100030: uleg_R
+    100032: Player
+    100034: root
+    400000: body
+    400002: Camera
+    400004: larm_L
+    400006: larm_R
+    400008: lleg_L
+    400010: lleg_R
+    400012: //RootNode
+    400014: Player_0
+    400016: PlayerArmature
+    400018: root_0
+    400020: Sun
+    400022: top
+    400024: uarm_L
+    400026: uarm_R
+    400028: uleg_L
+    400030: uleg_R
+    400032: Player
+    400034: root
+    4300000: Player_0
+    4300002: Player
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Player_0
+    13700002: Player
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: root_0
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uleg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uleg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lleg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lleg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: body
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: top
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uarm_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uarm_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: larm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: larm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MinecraftPlayer(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: 0, y: 1.5, z: 6}
+      rotation: {x: -.00617037341, y: -.707079828, z: .00617037341, w: .707079887}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Player_0
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .5, y: .5, z: .5}
+      transformModified: 1
+    - name: PlayerArmature
+      position: {x: 0, y: 1.06277966, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: .5, y: .5, z: .5}
+      transformModified: 1
+    - name: root_0
+      position: {x: -0, y: 0, z: -.423761725}
+      rotation: {x: .5, y: .5, z: -.5, w: .5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: body
+      position: {x: -.341935515, y: 2.58154138e-08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: top
+      position: {x: -1.95626521, y: 1.47693925e-07, z: -2.99999969e-15}
+      rotation: {x: 1, y: -7.54979013e-08, z: 4.37113883e-08, w: -7.55001537e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: uarm_L
+      position: {x: -1.65516734, y: -.905686736, z: 1.31614026e-08}
+      rotation: {x: 1.06071717e-07, y: 2.52986823e-08, z: .798305094, w: .602253318}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: larm_L
+      position: {x: -.654940486, y: 4.54074183e-08, z: 1.80000007e-14}
+      rotation: {x: -1.28392927e-07, y: 3.77522582e-08, z: .0762128532, w: .997091591}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: uarm_R
+      position: {x: -1.6551671, y: .905686975, z: 1.31614026e-08}
+      rotation: {x: 4.17391206e-08, y: 7.50616422e-08, z: .798304975, w: -.602253377}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: larm_R
+      position: {x: -.654940486, y: 5.50251009e-08, z: 0}
+      rotation: {x: 1.02639071e-07, y: 2.29707009e-08, z: -.0762128606, w: .997091591}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: uleg_L
+      position: {x: -.21524182, y: -.338408351, z: 5.53795898e-09}
+      rotation: {x: 1.51898514e-15, y: 4.37113883e-08, z: 1, w: -4.37091323e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lleg_L
+      position: {x: -.85425961, y: 5.04353004e-08, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: uleg_R
+      position: {x: -.21524176, y: .338408411, z: 5.53795898e-09}
+      rotation: {x: -5.34015903e-15, y: -4.37113883e-08, z: 1, w: 4.37091323e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lleg_R
+      position: {x: -.85425961, y: 5.04353004e-08, z: -2.99999969e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Sun
+      position: {x: -1.51981843, y: 5.3833971, z: 6.11083698}
+      rotation: {x: .464420855, y: .0796379745, z: .155300483, w: .868247032}
+      scale: {x: 1, y: 1, z: .999999821}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  userData: 
