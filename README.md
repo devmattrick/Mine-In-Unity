@@ -19,7 +19,7 @@ Controls
 - S: Move Backward
 - D: Move Right
  
--Mouse: Camera Control
+- Mouse: Camera Control
 
 - Right Click: Place Block
 - Left Click: Break Block
