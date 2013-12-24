@@ -58,5 +58,5 @@ Credits
 - Craig Perko for some good tutorials on making this :)
 - imjake9 for the Minecraft player model
 - Unity for their awesome engine!
-
+- Heikki Törmälä for his SimplexNoise script used in world geneation
 
