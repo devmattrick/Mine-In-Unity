@@ -14,18 +14,18 @@ Installation
 
 Controls
 --------
-W: Move Forward
-A: Move Left
-S: Move Backward
-D: Move Right
+- W: Move Forward
+- A: Move Left
+- S: Move Backward
+- D: Move Right
+ 
+-Mouse: Camera Control
 
-Mouse: Camera Control
+- Right Click: Place Block
+- Left Click: Break Block
+- Middle Click: Select Block
 
-Right Click: Place Block
-Left Click: Break Block
-Middle Click: Select Block
-
-F5: 3rd Person View (Second Time Resets It)
+- F5: 3rd Person View (Second Time Resets It)
 
 Version Info
 ------------
