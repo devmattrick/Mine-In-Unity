@@ -30,7 +30,7 @@ Controls
 Version Info
 ------------
 Changelog:
-First Release (0.1}
+First Release (0.1)
 
 Known Bugs:
 - Walking animation is REALLY weird. We'd appreciate anyone's help with fixing that!
