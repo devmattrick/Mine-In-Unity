@@ -20,13 +20,10 @@ Controls
 - A: Move Left
 - S: Move Backward
 - D: Move Right
- 
 - Mouse: Camera Control
-
 - Right Click: Place Block
 - Left Click: Break Block
 - Middle Click: Select Block
-
 - F5: 3rd Person View (Second Time Resets It)
 
 Version Info
