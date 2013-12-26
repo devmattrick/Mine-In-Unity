@@ -25,7 +25,7 @@ Controls
 - Left Click: Break Block
 - Middle Click: Select Block
 - F5: 3rd Person View (Second Time Resets It)
-- ESC + F1: Exit Game
+~~ - ESC + F1: Exit Game ~~ (Coming in v0.1.2d)
 
 Version Info
 ------------
