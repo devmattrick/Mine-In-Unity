@@ -13,14 +13,11 @@ public class PlayerWalkScriptLeft : MonoBehaviour {
 	void Update ()
 	{
 		if (Input.GetKey (KeyCode.W) || Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.S) || Input.GetKey (KeyCode.D)) {
-
-						transform.Rotate (Vector3.up, speed * 10);
-				}
+			transform.Rotate (Vector3.up, speed * 2);
+		}
 		else {
-			var rot = transform.rotation;
 			transform.rotation = Quaternion.Slerp (transform.rotation, originalRotationValue, Time.time * rotationResetSpeed); 
 			transform.rotation = Quaternion.Euler(transform.parent.root.transform.rotation.eulerAngles.x, transform.parent.root.transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
-			
 		}
 	}
 }

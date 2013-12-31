@@ -66,5 +66,10 @@ public class PlayerIO : MonoBehaviour {
 				}
 	}
 
+
+		if (Input.GetKey (KeyCode.Escape) && Input.GetKey (KeyCode.F1)) {
+			Application.Quit();
+		}
+
 }
 }
