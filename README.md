@@ -3,6 +3,8 @@ Mine-in-Unity
 ![Screeny of Mine In Unity] (http://i39.tinypic.com/2wn49pf.png)
 Free, open source Minecraft clone made in Unity3D!
 
+Download [Unity](http://unity3d.com/)
+
 Installation
 ------------
 1. Clone using git
@@ -18,22 +20,20 @@ Controls
 - A: Move Left
 - S: Move Backward
 - D: Move Right
- 
 - Mouse: Camera Control
-
 - Right Click: Place Block
 - Left Click: Break Block
 - Middle Click: Select Block
-
 - F5: 3rd Person View (Second Time Resets It)
+- ~~ESC + F1: Exit Game~~ (Coming in v0.1.2d)
 
 Version Info
 ------------
 Changelog:
-First Release (0.1}
+First Release (0.1)
 
 Known Bugs:
-- Walking is REALLY weird. We'd appreciate anyone's help with fixing that!
+- Walking animation is REALLY weird. We'd appreciate anyone's help with fixing that!
 - Slight lag on chunk load.
 - Block glitching.
 - Some world generation bugs, not too noticeable.
