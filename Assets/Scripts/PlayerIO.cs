@@ -28,10 +28,9 @@ public class PlayerIO : MonoBehaviour {
 				
 			
 				if (Input.GetMouseButtonDown(0)){
-				Vector3 p = hit.point;
-				p -= hit.normal / 4;
-
-				chunk.SetBrick(0, p);
+					Vector3 p = hit.point;
+					p -= hit.normal / 4;
+					chunk.SetBrick(0, p);
 
 				} 
 
@@ -40,6 +39,7 @@ public class PlayerIO : MonoBehaviour {
 					Vector3 p = hit.point;
 				if (selectedInventory != 0){
 						p += hit.normal / 4;
+						if (p != new Vector3 (GameObject.FindWithTag("MinecraftPlayer").transform.position.x,GameObject.FindWithTag("MinecraftPlayer").transform.position.y,GameObject.FindWithTag("MinecraftPlayer").transform.position.z))
 						chunk.SetBrick(selectedInventory,p);
 				}
 				
@@ -57,11 +57,13 @@ public class PlayerIO : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.F5)) {
 						if (resetCamera == false) {
 								transform.localPosition -= Vector3.forward * 2;
+								GameObject.FindWithTag("MinecraftPlayer").layer = 1;
 								resetCamera = true;
 						}
 			else{
 				transform.position = transform.parent.root.transform.localPosition + new Vector3(0f, 0.7f, 0.06f);
 				transform.rotation = transform.parent.root.transform.rotation;
+				GameObject.FindWithTag("MinecraftPlayer").layer = 8;
 				resetCamera = false;
 				}
 	}
