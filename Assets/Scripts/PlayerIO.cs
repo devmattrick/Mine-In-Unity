@@ -17,6 +17,10 @@ public class PlayerIO : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (GameObject.FindWithTag ("FPSController").transform.position.y < -20) {
+			Debug.Log("Test");
+			GameObject.FindWithTag("FPSController").transform.position = new Vector3(GameObject.FindWithTag("FPSController").transform.position.x, 60, GameObject.FindWithTag("FPSController").transform.position.z);
+		}
 		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2)){
 			Ray ray = camera.ViewportPointToRay(new Vector3(0.5f,0.5f,0.5f));
 			RaycastHit hit;
@@ -39,7 +43,7 @@ public class PlayerIO : MonoBehaviour {
 					Vector3 p = hit.point;
 				if (selectedInventory != 0){
 						p += hit.normal / 4;
-						if (p != new Vector3 (GameObject.FindWithTag("MinecraftPlayer").transform.position.x,GameObject.FindWithTag("MinecraftPlayer").transform.position.y,GameObject.FindWithTag("MinecraftPlayer").transform.position.z))
+
 						chunk.SetBrick(selectedInventory,p);
 				}
 				
