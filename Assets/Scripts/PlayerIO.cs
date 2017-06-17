@@ -22,7 +22,7 @@ public class PlayerIO : MonoBehaviour {
 			GameObject.FindWithTag("FPSController").transform.position = new Vector3(GameObject.FindWithTag("FPSController").transform.position.x, 60, GameObject.FindWithTag("FPSController").transform.position.z);
 		}
 		if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2)){
-			Ray ray = camera.ViewportPointToRay(new Vector3(0.5f,0.5f,0.5f));
+			Ray ray = GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f,0.5f,0.5f));
 			RaycastHit hit;
 			if (Physics.Raycast (ray,out hit, maxInteractDistance)) {
 				Chunk chunk = hit.transform.GetComponent<Chunk>();
