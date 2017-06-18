@@ -1,11 +1,6 @@
 Mine-in-Unity
 =============
-![Screeny of Mine In Unity] (http://i39.tinypic.com/2wn49pf.png)
-Free, open source Minecraft clone made in Unity3D!
-
-Download [Unity](http://unity3d.com/)
-
-Visit our [Website](http://mineinunity.info)
+### This repository is no longer maintained. Please see [theWildSushii's fork](https://github.com/theWildSushii/Mine-In-Unity).
 
 Installation
 ------------
