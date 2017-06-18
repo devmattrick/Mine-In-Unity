@@ -13,7 +13,7 @@ public class World : MonoBehaviour {
 	
 	// Use this for initialization
 	void Awake () {
-		Screen.showCursor = false;
+		Cursor.visible = false;
 		currentWorld = this;
 		if (seed == 0)
 			seed = Random.Range(0, int.MaxValue);
